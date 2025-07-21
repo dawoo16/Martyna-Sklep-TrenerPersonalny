@@ -798,6 +798,10 @@
   .social-links {
     justify-content: center;
   }
+  .main-wrapper {
+    padding: 0 15px;
+    margin: 0 auto;
+  }
 
 }
   

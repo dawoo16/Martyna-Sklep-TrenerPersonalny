@@ -361,6 +361,16 @@
     transition: background 0.3s, transform 0.3s;
   }
   
+  .social-links a:hover {
+    background: var(--primary-color);
+    transform: translateY(-3px);
+  }
+  
+  .social-links i {
+    font-size: 20px;
+    color: white;
+  }
+  
   .footer-bottom {
     text-align: center;
     padding-top: 20px;

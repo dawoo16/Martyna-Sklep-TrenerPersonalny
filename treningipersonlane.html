@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Współprace Indywidualne</title>
+    <link rel="stylesheet" href="indywidualne.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container-navbar">
+            <div class="logo">
+                <img src="logo.jpg" alt="Logo Trenera Personalnego">
+            </div>
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-menu-button" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Off-canvas sliding menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="index.html" onclick="toggleMenu()">Strona Główna</a></li>
+            <li><a href="indywidualne.html" onclick="toggleMenu()">Gotowe Plany Treningowe</a></li>
+            <li><a href="wspolpraceonline.html" onclick="toggleMenu()">Współprace Online</a></li>
+            <li><a href="jadlospisy.html" onclick="toggleMenu()">Dieta - Jadłospisy</a></li>        </ul>
+    </div>
+
+    <header class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Treninig Personalne</h1>
+                <p>Odkryj moje spersonalizowane usługi, które pomogą Ci osiągnąć Twoje cele fitness.</p>
+            </div>
+            <div class="products-grid">
+                <div class="gold-card">
+                    <img src="10.jpg" alt="Plan Treningowy" class="gold-card-image">
+                    <h3 class="gold-card-title">1 trening</h3>
+                    <p class="gold-card-price">Cena: 180 PLN</p>
+                    <a href="https://buy.stripe.com/4gM00lctceVreZZ4a91VK09" target="_blank">
+                        <button class="gold-card-button">Zacznij już dziś</button>
+                    </a>
+
+                    <div class="gold-card-details">
+                        <p>Spersonalizowany plan treningowy dopasowany do Twoich potrzeb...</p>
+                    </div>
+                </div>
+                <div class="gold-card">
+                    <img src="10.jpg" alt="Plan Treningowy" class="gold-card-image">
+                    <h3 class="gold-card-title">Pakiet 5 treningów</h3>
+                    <p class="gold-card-price">Cena: 800 PLN</p>
+                    <a href="https://buy.stripe.com/9B65kF64O28FdVVayx1VK08" target="_blank">
+                        <button class="gold-card-button">Zacznij już dziś</button>
+                    </a>
+
+                    <div class="gold-card-details">
+                        <p>Spersonalizowany plan treningowy dopasowany do Twoich potrzeb...</p>
+                    </div>
+                </div>
+                <div class="gold-card">
+                    <img src="10.jpg" alt="Plan Treningowy" class="gold-card-image">
+                    <h3 class="gold-card-title">Pakiet 10 treningów</h3>
+                    <p class="gold-card-price">Cena: 1500 PLN</p>
+                    <a href="https://buy.stripe.com/3cI6oJeBk3cJeZZ0XX1VK07" target="_blank">
+                        <button class="gold-card-button">Zacznij już dziś</button>
+                    </a>
+
+                    <div class="gold-card-details">
+                        <p>Spersonalizowany plan treningowy dopasowany do Twoich potrzeb...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Martyna Rybak</h3>
+                    <p>Certyfikowany Trener Personalny<br>Pomagam osiągnąć Twoje cele fitness</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Szybkie Linki</h3>
+                    <ul>
+                        <li><a href="index.html">Strona Główna</a></li>
+                        <li><a href="#products">Produkty</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Obserwuj mnie</h3>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/martynarybak/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.tiktok.com/@rybak.martyna"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Martyna Rybak. Wszelkie prawa zastrzeżone.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

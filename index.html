@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Twoje Imię - Trener Personalny i Ekspert Fitness</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container-navbar">
+            <div class="logo">
+                <img src="logo.jpg" alt="Logo Trenera Personalnego">
+            </div>
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-menu-button" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Off-canvas sliding menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <ul>
+            <li><a href="indywidualne.html" onclick="toggleMenu()">Gotowe Plany Treniningowe</a></li>
+            <li><a href="treningipersonlane.html" onclick="toggleMenu()">Treningi Personalne</a></li>
+            <li><a href="wspolpraceonline.html" onclick="toggleMenu()">Współprace Online</a></li>
+            <li><a href="jadlospisy.html" onclick="toggleMenu()">Dieta - Jadłospisy</a></li>
+            
+        </ul>
+    </div>
+
+    <div class="main-wrapper">
+        <header class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1><br>Zadbaj o swoje zdrowie, sprawność i wymarzoną sylwetkę!</h1>
+                    <p>Razem osiągniemy Twoje cele. Dopasowany plan, wiedza oraz wsparcie, dzięki którym wreszcie
+                        zobaczysz efekty.</p>
+                    <div class="cta-buttons">
+                        <a href="#contact" class="primary-button">Zarezerwuj pierwszy trening personalny</a>
+                        <a href="#programs" class="secondary-button">Zobacz programy</a>
+                    </div>
+                </div>
+                <div class="hero-image trainer-image">
+                    <img src="IMG_0955.jpeg" alt="Trener Personalny">
+                </div>
+            </div>
+        </header>
+
+        <section class="motivation">
+            <div class="container">
+                <h2>Jak Zacząć Realizować Swoje Cele</h2>
+                <ul>
+                    <li>
+                        <i class="fas fa-shield-alt"></i>
+                        <strong>Bezpieczeństwo</strong>
+                        <p>Zawsze stawiaj na bezpieczeństwo podczas treningów, aby unikać kontuzji.</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-dumbbell"></i>
+                        <strong>Skuteczność</strong>
+                        <p>Postępuj zgodnie z planem dostosowanym do Twoich potrzeb, aby osiągnąć maksymalne rezultaty.</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-star"></i>
+                        <strong>Motywacja</strong>
+                        <p>Pozostań zmotywowany, wyznaczając realistyczne cele i świętując małe sukcesy.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="section-bg beige-bg">
+            <div class="main-wrapper">
+                <section id="about" class="about">
+                    <div class="container">
+                        <div class="about-content">
+                            <div class="about-text">
+                                <h2>Dlaczego warto mi zaufać?</h2>
+                                <p class="highlight">
+                                    Od lat pomagam kobietom i mężczyznom osiągać lepszą formę, zdrowie i samopoczucie- zarówno przez
+                                    treningi jak i odpowiednio dobrane jadłospisy. Nieustannie się szkolę i uczestniczę w rozmaitych kursach
+                                    z zakresu dietetyki czy treningów. Każdy plan tworzę na podstawie sprawdzonych metod a nie
+                                    chwilowych trendów.
+                                    
+                                    Bez zbednych kompikacji i restrykcyjnych diet. Stawiam na wskazówki, które łatwo wdrożysz w
+                                    codzienne życie- niezależnie od tego ile masz czasu czy doświadczenia.
+                                    
+                                    Nie musisz wybierać między zdrowiem, a przyjemnością. Moje plany uczą jak jeść i trenować z głową-
+                                    tak by znaleźć równowagę, a nie żyć w ciągłym reżimie.
+                                    
+                                    Znam wyzwania, bo sama przez nie przechodziłam. Dlatego oferuję nie tylko plan, ale także empatię,
+                                    wsparcie i motywację wtedy, kiedy najbardziej ich potrzebujesz.</p>
+                            </div>
+                            <div class="about-image">
+                                <img src="IMG_1210.jpeg" alt="Sesja Treningowa">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="section-bg white-bg">
+            <div class="main-wrapper">
+                <section id="programs" class="programs">
+                    <div class="container">
+                        <h2>Programy Treningowe</h2>
+                        <div class="programs-grid">
+                            <div class="program-card">
+                                <i class="fas fa-laptop"></i>
+                                <h3>Gotowe Plany Treningowe</h3>
+                                <p>Treningi i wsparcie dla tych, które potrzebuja ulozoznego planu treningowego</p>
+                                <a href="indywidualne.html" class="program-link">Dowiedz się więcej →</a>
+                            </div>
+                            <div class="program-card">
+                                <i class="fas fa-apple-alt"></i>
+                                <h3>Gotowe Jadłospisy</h3>
+                                <p>Gotowe plany posiłków i porady żywieniowe, aby zmaksymalizować Twoje wyniki fitness.</p>
+                                <a href="jadlospisy.html" class="program-link">Dowiedz się więcej →</a>
+                            </div>
+                            <div class="program-card">
+                                <i class="fas fa-dumbbell"></i>
+                                <h3>Treningi personalne</h3>
+                                <p>Treningi Personalne Stacjorane na silowni</p>
+                                <a href="treningipersonlane.html" class="program-link">Dowiedz się więcej →</a>
+                            </div>
+                            <div class="program-card">
+                                <i class="fas fa-laptop"></i>
+                                <h3>Wspolprace online</h3>
+                                <p>Indywidualne plany treningowe, dietetyczne oraz prowadzenie online</p>
+                                <a href="wspolpraceonline.html" class="program-link">Dowiedz się więcej →</a>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+
+        <div class="section-bg dark-bg">
+            <div class="main-wrapper">
+                <section class="testimonials visible" id="testimonials">
+                    <div class="container">
+                        <h2>Historie Moich Podopiecznych</h2>
+                        <div class="testimonial-grid">
+                            <div class="testimonial-card">
+                                <div class="testimonial-image">
+                                    <img src="Agatka.jpeg" alt="Transformacja Klienta">
+                                </div>
+                                <div class="testimonial-content">
+                                    <p>"Zawsze bałam się siłowni i zaczynałam diety, które kończyły się po tygodniu. Pokochałam
+                                        treningi, zdrowe odżywianie i zmieniłam swoje życie o 180 stopni. Zgubiłam 10 kg, ale zyskałam o wiele
+                                        więcej: pewność siebie, energię i luz w podejściu do jedzenia."</p>
+                                    <h4>Agata</h4>
+                                    <span>Schudła 10 kg w 6 miesięcy</span>
+                                </div>
+                            </div>
+                            <div class="testimonial-card">
+                                <div class="testimonial-image">
+                                    <img src="Michal.jpeg" alt="Transformacja Klienta">
+                                </div>
+                                <div class="testimonial-content">
+                                    <p>"Nigdy wcześniej nie miałem takiej formy. Schudłem, zbudowałem mięśnie i czuje się dobrze we
+                                        własnym ciele. Trenuję regularnie, mam więcej siły i energii na codzień."</p>
+                                    <h4>Michał</h4>
+                                    <span>Zyskał 3 kg mięśni</span>
+                                </div>
+                            </div>
+                            <div class="testimonial-card">
+                                <div class="testimonial-image">
+                                    <img src="fiona.jpeg" alt="Transformacja Klienta">
+                                </div>
+                                <div class="testimonial-content">
+                                    <p>"Nigdy wcześniej nie miałem takiej formy. Schudłem, zbudowałem mięśnie i czuje się dobrze we
+                                        własnym ciele. Trenuję regularnie, mam więcej siły i energii na codzień."</p>
+                                    <h4>Michał</h4>
+                                    <span>Zyskał 3 kg mięśni</span>
+                                </div>
+                            </div>
+                            <div class="testimonial-card">
+                                <div class="testimonial-image">
+                                    <img src="kinga.jpeg" alt="Transformacja Klienta">
+                                </div>
+                                <div class="testimonial-content">
+                                    <p>"Nigdy wcześniej nie miałem takiej formy. Schudłem, zbudowałem mięśnie i czuje się dobrze we
+                                        własnym ciele. Trenuję regularnie, mam więcej siły i energii na codzień."</p>
+                                    <h4>Michał</h4>
+                                    <span>Zyskał 3 kg mięśni</span>
+                                </div>
+                            </div>
+                            <div class="testimonial-card">
+                                <div class="testimonial-image">
+                                    <img src="karolina.jpeg" alt="Transformacja Klienta">
+                                </div>
+                                <div class="testimonial-content">
+                                    <p>"Nigdy wcześniej nie miałem takiej formy. Schudłem, zbudowałem mięśnie i czuje się dobrze we
+                                        własnym ciele. Trenuję regularnie, mam więcej siły i energii na codzień."</p>
+                                    <h4>Michał</h4>
+                                    <span>Zyskał 3 kg mięśni</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <div class="section-bg white-bg">
+            <div class="main-wrapper">
+                <section id="contact" class="contact">
+                    <div class="container">
+                        <h2>Rozpocznij swoją transformację</h2>
+                        <div class="contact-content">
+                            <div class="contact-form">
+                                <form>
+                                    <input type="text" placeholder="Twoje Imię" required>
+                                    <input type="email" placeholder="Twój Email" required>
+                                    <select required>
+                                        <option value="">Wybierz Program</option>
+                                        <option value="personal">Trening Personalny</option>
+                                        <option value="nutrition">Planowanie Żywienia</option>
+                                        <option value="group">Trening Grupowy</option>
+                                        <option value="online">Coaching Online</option>
+                                    </select>
+                                    <textarea placeholder="Twoje Cele" required></textarea>
+                                    <button type="submit" class="primary-button">Rozpocznij</button>
+                                </form>
+                            </div>
+                            <div class="contact-info">
+                                <h3>Skontaktuj się ze mną</h3>
+                                <p>Gotowy na zmianę swojego życia? Skontaktuj się ze mną już dziś, aby umówić się na pierwszy trening
+                                    personalny.</p>
+                                <div class="contact-details">
+                                    <div><i class="fas fa-envelope"></i> rybakmartyna16@gmail.com</div>
+                                    <div><i class="fas fa-map-marker-alt"></i> Wrocław Samuraj Gym</div>
+                                </div>
+                                <div class="social-links">
+                                    <a href="https://www.instagram.com/martynarybak/"><i class="fab fa-instagram"></i></a>
+                                    <a href="https://www.tiktok.com/@rybak.martyna"><i class="fab fa-tiktok"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Martyna Rybak</h3>
+                    <p>Certyfikowany Trener Personalny<br>Pomagam osiągnąć Twoje cele fitness</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Szybkie Linki</h3>
+                    <ul>
+                        <li><a href="#about">O mnie</a></li>
+                        <li><a href="#programs">Programy</a></li>
+                        <li><a href="#testimonials">Opinie</a></li>
+                        <li><a href="#contact">Kontakt</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Obserwuj mnie</h3>
+                    <div class="social-links">
+                        <div class="social-links">
+                            <a href="https://www.instagram.com/martynarybak/"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.tiktok.com/@rybak.martyna"><i class="fab fa-tiktok"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Martyna Rybak. Wszelkie prawa zastrzeżone.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

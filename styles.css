@@ -604,23 +604,7 @@
 @media (max-width: 768px) {
 
   /* Navbar & Logo */
-  .navbar .container,
-  .container-navbar {
-    height: 100px;
-    padding: 0 15px;
-  }
-
-  .logo {
-    height: 80px;
-  }
-
-  .logo img {
-    height: 120px;
-  }
-
-  .mobile-menu-button {
-    font-size: 20px;
-  }
+  
 
   /* Hero */
   .hero .container {
@@ -809,29 +793,6 @@
 
   .social-links {
     justify-content: center;
-  }
-
-  .container-navbar {
-    justify-content: center;
-    position: relative;
-  }
-
-  .logo {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    height: 80px;
-  }
-
-  .logo img {
-    height: 250px;
-  }
-
-  .mobile-menu-button {
-    position: absolute;
-    right: 20px;
-    top: 50%;
-    transform: translateY(-50%);
   }
 
 

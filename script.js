@@ -244,4 +244,3 @@ if (aboutSection) {
     
 
 });
-

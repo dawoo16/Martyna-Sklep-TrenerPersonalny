@@ -811,6 +811,31 @@
     justify-content: center;
   }
 
+      .container-navbar {
+    justify-content: center;
+    position: relative;
+  }
+
+  .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 80px;
+  }
+
+  .logo img {
+    height: 100px;
+  }
+
+  .mobile-menu-button {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+
+
+
 }
   
   

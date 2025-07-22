@@ -226,17 +226,17 @@
                         <h2>Rozpocznij swoją transformację</h2>
                         <div class="contact-content">
                             <div class="contact-form">
-                                <form>
-                                    <input type="text" placeholder="Twoje Imię" required>
-                                    <input type="email" placeholder="Twój Email" required>
-                                    <select required>
+                                <form action="https://formspree.io/f/mrblpklp" method="POST">
+                                    <input type="text" name="Imię" placeholder="Twoje Imię" required>
+                                    <input type="email" name="Email" placeholder="Twój Email" required>
+                                    <select name="Program" required>
                                         <option value="">Wybierz Program</option>
                                         <option value="personal">Gotowe Plany Treningowe</option>
                                         <option value="nutrition">Gotowe Jadłospisy</option>
                                         <option value="group">Treningi personalne</option>
                                         <option value="online">Współprace Online</option>
                                     </select>
-                                    <textarea placeholder="Twoje Cele" required></textarea>
+                                    <textarea name="Wiadomosc" placeholder="Twoje Cele" required></textarea>
                                     <input type="hidden" name="_captcha" value="true">
                                     <button type="submit" class="primary-button">Rozpocznij</button>
                                 </form>

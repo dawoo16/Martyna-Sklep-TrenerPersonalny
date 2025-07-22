@@ -604,7 +604,24 @@
 @media (max-width: 768px) {
 
   /* Navbar & Logo */
-  
+  .container-navbar {
+    position: relative;
+    justify-content: center; /* wyśrodkuj logo */
+    height: 100px;
+  }
+
+  .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .mobile-menu-button {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 
   /* Hero */
   .hero .container {
